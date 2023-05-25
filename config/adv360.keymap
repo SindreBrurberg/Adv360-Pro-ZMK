@@ -43,17 +43,17 @@
    &none   &none   &kp W   &kp Q   &none      &none                     &none                                                                                       &none    &none   &none   &kp K   &kp Y   &none    &none
    &none   &kp A   &kp S   &kp E   &kp R  &kp COMMA                     &none  &kp LEFT_CONTROL     &none   &none   &none                  &none     &kp RGUI       &none  &kp DOT   &kp N   &kp I   &kp O   &kp T    &none
  &kp ESC   &none   &none   &none   &kp G      &none                     &none             &none     &none   &none   &none                  &none        &none       &none    &none   &kp H   &none   &none   &none  &kp TAB
-   &none   &none   &none   &none   &none                       &kp LEFT_SHIFT       &lt 3 ENTER  &kp LALT                  &kp LS(LA(LG(LCTRL)))  &lt 1 SPACE  &kp LSHIFT            &none   &none   &none   &none    &none
+   &none   &none   &none   &none   &none                       &kp LEFT_SHIFT   &lt 3 BACKSPACE  &kp LALT                  &kp LS(LA(LG(LCTRL)))  &lt 1 SPACE  &kp LSHIFT            &none   &none   &none   &none    &none
             >;
         };
 
         layer_keypad {
             bindings = <
-  &none   &none   &none      &none   &none          &none            &trans                                                  &trans              &none   &none      &none   &none   &none   &none
-  &none   &none   &kp Z  &kp EQUAL   &none          &none             &none                                                   &none              &none   &none  &kp MINUS   &kp X   &none   &none
-  &none   &kp B   &kp C      &kp D   &kp F  &kp BACKSPACE             &none  &trans   &none   &none   &none   &none   &none   &none  &kp DOUBLE_QUOTES   &kp U      &kp M   &kp L   &kp P   &none
- &trans   &none   &none      &none   &kp V          &none             &none   &none   &none   &none   &none   &none   &none   &none              &none   &kp J      &none   &none   &none  &trans
-  &none   &none   &none      &none   &none                           &trans  &trans  &trans                  &trans  &trans  &trans                      &none      &none   &none   &none   &none
+  &none   &none   &none      &none   &none      &none            &trans                                                  &trans              &none   &none      &none   &none   &none   &none
+  &none   &none   &kp Z  &kp EQUAL   &none      &none             &none                                                   &none              &none   &none  &kp MINUS   &kp X   &none   &none
+  &none   &kp B   &kp C      &kp D   &kp F  &kp ENTER             &none  &trans   &none   &none   &none   &none   &none   &none  &kp DOUBLE_QUOTES   &kp U      &kp M   &kp L   &kp P   &none
+ &trans   &none   &none      &none   &kp V      &none             &none   &none   &none   &none   &none   &none   &none   &none              &none   &kp J      &none   &none   &none  &trans
+  &none   &none   &none      &none   &none                       &trans  &trans  &trans                  &trans  &trans  &trans                      &none      &none   &none   &none   &none
             >;
         };
 
