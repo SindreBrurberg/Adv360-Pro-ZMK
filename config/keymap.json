@@ -28,11 +28,11 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                            "&none",      "&none",  "&none",  "&none",  "&none",      "&none",      "&none",                  "&none",        "&none",        "&none",        "&none",        "&none",        "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC",                                  "&rgb_ug RGB_TOG", "&bl BL_TOG",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",                   "&bl BL_INC",   "&bl BL_DEC",        "&none",        "&none",  "&none"
     ], [
-        "&none",  "&none",     "&none",            "&none",             "&none",  "&none",           "&trans",                                                             "&trans",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-        "&none",  "&none", "&kp GRAVE",    "&kp BACKSLASH",             "&none",  "&none",            "&none",                                                              "&none",  "&none",  "&none", "&kp N7", "&kp N8",  "&none",  "&none",
-        "&none", "&kp N9", "&kp COLON", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp N5",            "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&none", "&kp N6", "&kp N3", "&kp N2", "&kp N1", "&kp N0",  "&none",
-       "&trans",  "&none",     "&none",            "&none",         "&kp SLASH",  "&none",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&none", "&kp N4",  "&none",  "&none",  "&none", "&trans",
-        "&none",  "&none",     "&none",            "&none",             "&none",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",            "&none",  "&none",  "&none",  "&none",  "&none"
+        "&none",  "&none",         "&none",            "&none",             "&none",  "&none",           "&trans",                                                             "&trans",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none",  "&none",     "&kp GRAVE",    "&kp BACKSLASH",             "&none",  "&none",            "&none",                                                              "&none",  "&none",  "&none", "&kp N7", "&kp N8",  "&none",  "&none",
+        "&none", "&kp N9", "&kp SEMICOLON", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp N5",            "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&none", "&kp N6", "&kp N3", "&kp N2", "&kp N1", "&kp N0",  "&none",
+       "&trans",  "&none",         "&none",            "&none",         "&kp SLASH",  "&none",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&none", "&kp N4",  "&none",  "&none",  "&none", "&trans",
+        "&none",  "&none",         "&none",            "&none",             "&none",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",            "&none",  "&none",  "&none",  "&none",  "&none"
     ]
   ]
 }
