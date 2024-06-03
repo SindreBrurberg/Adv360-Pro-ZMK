@@ -5,7 +5,7 @@
   "layer_names": [
     "base",
     "Text",
-    "Symb",
+    "Numb",
     "mod"
   ],
   "layers": [
@@ -16,17 +16,17 @@
        "&kp BACKSPACE",   "&none",  "&none",  "&none",  "&kp V",       "&none",                                                          "&none",                      "&none",                                      "&none",  "&kp M",  "&none",  "&none",  "&none", "&kp ENTER",
                "&none",   "&none",  "&none",  "&none",  "&none",                          "&mt LC(LS(LALT)) SPACE",       "&kp LSHIFT",  "&none",                      "&none", "&kp RIGHT_CONTROL",  "&to 1",                 "&none",  "&none",  "&none",  "&none",     "&none"
     ], [
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&trans",                                                                            "&trans",  "&none",  "&none",            "&none",             "&none",  "&none",  "&none",
-        "&none",  "&none",  "&kp Q",  "&kp R",  "&none",  "&none",           "&trans",                                                                            "&trans",  "&none",  "&none",     "&kp NUMBER_8",      "&kp NUMBER_9",  "&none",  "&none",
-        "&none",  "&kp Z",  "&kp X",  "&kp C",  "&kp T",  "&kp Y",            "&none",         "&trans", "&trans",                     "&trans",        "&trans",  "&none",  "&none",  "&kp U", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET",  "&kp M",  "&none",
-       "&trans",  "&none",  "&none",  "&kp B",  "&none",  "&none",                                       "&trans",                     "&trans",                             "&none",  "&kp N",            "&none",             "&none",  "&none", "&trans",
-        "&none",  "&none",  "&none",  "&none",  "&none",                      "&to 0", "&kp LEFT_SHIFT", "&trans",                     "&trans", "&kp RIGHT_ALT",  "&to 2",            "&none",            "&none",             "&none",  "&none",  "&none"
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&trans",                                                                            "&trans",  "&none",  "&none",     "&none",            "&none",  "&none",  "&none",
+        "&none",  "&none",  "&kp Q",  "&kp R",  "&none",  "&none",           "&trans",                                                                            "&trans",  "&none",  "&none", "&kp COLON", "&kp SINGLE_QUOTE",  "&none",  "&none",
+        "&none",  "&kp Z",  "&kp X",  "&kp C",  "&kp T",  "&kp Y",            "&none",         "&trans", "&trans",                     "&trans",        "&trans",  "&none",  "&none",  "&kp U", "&kp COMMA",       "&kp PERIOD",  "&kp M",  "&none",
+       "&trans",  "&none",  "&none",  "&kp B",  "&none",  "&none",                                       "&trans",                     "&trans",                             "&none",  "&kp N",     "&none",            "&none",  "&none", "&trans",
+        "&none",  "&none",  "&none",  "&none",  "&none",                      "&to 0", "&kp LEFT_SHIFT", "&trans",                     "&trans", "&kp RIGHT_ALT",  "&to 2",            "&none",     "&none",            "&none",  "&none",  "&none"
     ], [
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&trans",                                                                            "&trans",  "&none",  "&none",            "&none",             "&none",  "&none",  "&none",
-        "&none",  "&none",  "&kp Q",  "&kp R",  "&none",  "&none",           "&trans",                                                                            "&trans",  "&none",  "&none",     "&kp NUMBER_8",      "&kp NUMBER_9",  "&none",  "&none",
-        "&none",  "&kp Z",  "&kp X",  "&kp C",  "&kp T",  "&kp Y",            "&none",         "&trans", "&trans",                     "&trans",        "&trans",  "&none",  "&none",  "&kp U", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET",  "&kp M",  "&none",
-       "&trans",  "&none",  "&none",  "&kp B",  "&none",  "&none",                                       "&trans",                     "&trans",                             "&none",  "&kp N",            "&none",             "&none",  "&none", "&trans",
-        "&none",  "&none",  "&none",  "&none",  "&none",                      "&to 0", "&kp LEFT_SHIFT", "&trans",                     "&trans", "&kp RIGHT_ALT",  "&to 2",            "&none",            "&none",             "&none",  "&none",  "&none"
+        "&none",        "&none",        "&none",         "&none",        "&none",        "&none",           "&trans",                                                                                          "&trans",        "&none",        "&none",        "&none",        "&none",        "&none",  "&none",
+        "&none",        "&none",    "&kp SLASH", "&kp BACKSLASH",        "&none",        "&none",           "&trans",                                                                                          "&trans",        "&none",        "&none",    "&kp MINUS",    "&kp EQUAL",        "&none",  "&none",
+        "&none", "&kp NUMBER_1", "&kp NUMBER_2",  "&kp NUMBER_3", "&kp NUMBER_4", "&kp NUMBER_5",            "&none",         "&trans", "&trans",                     "&trans",        "&trans",                "&none", "&kp NUMBER_6", "&kp NUMBER_7", "&kp NUMBER_8", "&kp NUMBER_9", "&kp NUMBER_0",  "&none",
+       "&trans",        "&none",        "&none",     "&kp TILDE",        "&none",        "&none",                                       "&trans",                     "&trans",                                                 "&none",      "&kp TAB",        "&none",        "&none",        "&none", "&trans",
+        "&none",        "&none",        "&none",         "&none",        "&none",                            "&to 0", "&kp LEFT_SHIFT", "&trans",                     "&trans", "&kp RIGHT_ALT", "&kt LA(LEFT_COMMAND)",                        "&none",        "&none",        "&none",        "&none",  "&none"
     ], [
         "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                           "&trans",                                                                      "&trans", "&bt BT_SEL 0",           "&bt BT_SEL 1", "&bt BT_SEL 2",    "&bt BT_SEL 3", "&bt BT_SEL 4",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                      "&bootloader",                                                                 "&bootloader",        "&none",                  "&none",        "&none",           "&none",        "&none",  "&none",
