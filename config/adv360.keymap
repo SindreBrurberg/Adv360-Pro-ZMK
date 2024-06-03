@@ -42,8 +42,8 @@
             bindings = <
        &kp DEL  &kp F11   &none   &none   &none  &bootloader                             &mo 3                                                                        &mo 3  &bootloader   &none   &none   &none   &none      &none
          &none    &none   &kp W   &kp E   &none        &none                             &mo 1                                                                        &mo 3        &none   &none   &kp I   &kp O   &none      &none
-         &none    &kp A   &kp S   &kp D   &kp F        &kp G                             &none  &kp LEFT_CONTROL   &none                   &none              &none   &none        &kp H   &kp J   &kp K   &kp L   &kp P  &kp ENTER
- &kp BACKSPACE    &none   &none   &none   &kp V        &none                                                       &none                   &none                                   &none   &kp M   &none   &none   &none      &none
+         &none    &kp A   &kp S   &kp D   &kp F        &kp G                             &none  &kp LEFT_CONTROL   &none                   &none              &none   &none        &kp H   &kp J   &kp K   &kp L   &kp P      &none
+ &kp BACKSPACE    &none   &none   &none   &kp V        &none                                                       &none                   &none                                   &none   &kp M   &none   &none   &none  &kp ENTER
          &none    &none   &none   &none   &none                         &mt LC(LS(LALT)) SPACE        &kp LSHIFT   &none                   &none  &kp RIGHT_CONTROL   &to 1                &none   &none   &none   &none      &none
             >;
         };
