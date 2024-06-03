@@ -51,21 +51,21 @@
 
         layer_Text {
             bindings = <
-  &none         &none             &none             &none         &none         &none             &trans                                                                 &trans         &none         &none              &none          &none          &none   &none
-  &none         &none             &kp Q             &kp T         &kp T         &none             &trans                                                                 &trans         &none         &kp Y          &kp EQUAL  &kp SEMICOLON          &none   &none
-  &none  &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &none          &trans  &trans                  &trans         &trans   &none  &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0   &none
- &trans     &kp GRAVE  &kp SINGLE_QUOTE  &kp LEFT_BRACKET         &kp B         &none                                     &trans                  &trans                                &none         &kp N  &kp RIGHT_BRACKET      &kp MINUS  &kp BACKSLASH  &trans
-  &none         &none             &none             &none         &none                          &kp TAB  &kp LEFT_SHIFT  &trans                  &trans  &kp RIGHT_ALT   &to 0                       &none              &none          &none          &none   &none
+  &none         &none             &none             &none         &none         &none                &trans                                                  &trans         &none         &none              &none          &none          &none   &none
+  &none         &none             &kp Q           &kp TAB         &kp T         &none                &trans                                                  &trans         &none         &kp Y          &kp EQUAL  &kp SEMICOLON          &none   &none
+  &none  &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                 &none  &trans  &trans                  &trans  &trans   &none  &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0   &none
+ &trans     &kp GRAVE  &kp SINGLE_QUOTE  &kp LEFT_BRACKET         &kp B         &none                                &trans                  &trans                         &none         &kp N  &kp RIGHT_BRACKET      &kp MINUS  &kp BACKSLASH  &trans
+  &none         &none             &none             &none         &none                          &kp LSHIFT   &mo 2  &trans                  &trans  &trans  &trans                       &none              &none          &none          &none   &none
             >;
         };
 
-        layer_Numb {
+        layer_Nav {
             bindings = <
-  &none         &none         &none          &none         &none         &none            &trans                                                                               &trans         &none         &none         &none         &none         &none   &none
-  &none         &none     &kp SLASH  &kp BACKSLASH         &none         &none            &trans                                                                               &trans         &none         &none     &kp MINUS     &kp EQUAL         &none   &none
-  &none  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &none          &trans  &trans                  &trans         &trans                 &none  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &none
- &trans         &none         &none      &kp TILDE         &none         &none                                    &trans                  &trans                                              &none       &kp TAB         &none         &none         &none  &trans
-  &none         &none         &none          &none         &none                           &to 0  &kp LEFT_SHIFT  &trans                  &trans  &kp RIGHT_ALT  &kt LA(LEFT_COMMAND)                       &none         &none         &none         &none   &none
+  &none   &none           &none           &none            &none   &none            &trans                                                                               &trans   &none         &none         &none         &none         &none   &none
+  &none   &none           &none    &kp UP_ARROW            &none   &none            &trans                                                                               &trans   &none         &none     &kp MINUS         &none         &none   &none
+  &none   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none             &none          &trans  &trans                  &trans         &trans                 &none   &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &none
+ &trans   &none           &none           &none            &none   &none                                    &trans                  &trans                                        &none         &none         &none         &none         &none  &trans
+  &none   &none           &none           &none            &none                     &to 0  &kp LEFT_SHIFT  &trans                  &trans  &kp RIGHT_ALT  &kt LA(LEFT_COMMAND)                 &none         &none         &none         &none   &none
             >;
         };
 
