@@ -48,13 +48,23 @@
             >;
         };
 
-        layer_keypad {
+        layer_Text {
             bindings = <
   &none   &none   &none   &none   &none   &none            &trans                                                     &trans   &none   &none             &none              &none   &none   &none
   &none   &none   &kp Q   &kp R   &none   &none            &trans                                                     &trans   &none   &none      &kp NUMBER_8       &kp NUMBER_9   &none   &none
   &none   &kp Z   &kp X   &kp C   &kp T   &kp Y             &none  &trans  &trans                  &trans     &trans   &none   &none   &kp U  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp M   &none
  &trans   &none   &none   &kp B   &none   &none                            &trans                  &trans                      &none   &kp N             &none              &none   &none  &trans
   &none   &none   &none   &none   &none                     &none   &none  &trans                  &trans  &kp ENTER   &none           &none             &none              &none   &none   &none
+            >;
+        };
+
+        layer_Symb {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -65,16 +75,6 @@
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none                   &none   &none   &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none            &none         &none   &none
   &none         &none         &none         &none         &none         &none                                                 &none                   &none                              &none                   &none         &none            &none         &none   &none
   &none         &none         &none         &none         &none                                           &none       &none   &none                   &none   &none        &none                            &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG    &bl BL_TOG   &none
-            >;
-        };
-
-        layer_Layer__3 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

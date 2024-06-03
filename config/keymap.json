@@ -4,9 +4,9 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "keypad",
-    "mod",
-    "Layer #3"
+    "Text",
+    "Symb",
+    "mod"
   ],
   "layers": [
     [
