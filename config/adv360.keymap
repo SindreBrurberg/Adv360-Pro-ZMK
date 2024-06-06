@@ -45,7 +45,7 @@
    &none    &none       &kp W       &kp E        &kp R        &kp T                    &mo 1                                                                         &mo 3        &kp Y        &kp U       &kp I       &kp O      &none      &none
    &none    &kp A  &hm LALT S  &hm LCMD D  &hm LCTRL F        &kp G                    &none   &none    &none                    &none       &none                   &none        &kp H  &hm LCTRL J  &hm LCMD K  &hm LALT L      &kp P      &none
    &kp Q    &kp Z       &kp X       &kp C        &kp V        &kp B                                     &none                    &none                                            &kp N        &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &kp ENTER
-   &none    &none       &none       &none        &none                         &kp BACKSPACE   &to 1  &kp ESC                  &kp ESC  &kp LSHIFT  &mt LC(LS(LCMD)) SPACE                     &none       &none       &none      &none      &none
+   &none    &none       &none       &none        &none                         &kp BACKSPACE   &mo 1  &kp ESC                  &kp ESC  &kp LSHIFT  &mt LC(LS(LCMD)) SPACE                     &none       &none       &none      &none      &none
             >;
         };
 
