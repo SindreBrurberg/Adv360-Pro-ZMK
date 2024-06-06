@@ -41,11 +41,11 @@
 
         default_layer {
             bindings = <
- &kp DEL     &kp F11        &none       &none        &none  &bootloader                    &mo 3                                                                          &mo 3  &bootloader        &none       &none        &none      &none   &none
-   &none       &kp Q        &kp W       &kp E        &kp R        &kp T                    &mo 1                                                                          &mo 3        &kp Y        &kp U       &kp I        &kp O      &kp P   &none
-   &none  &hm LALT A  &hm LCTRL S  &hm LCMD D  &hm LCTRL F        &kp G                    &none      &none   &none                   &none       &none                   &none   &hm LALT H  &hm LCTRL J  &hm LCMD K  &hm LCTRL L  &kp ENTER   &none
-   &none       &kp Z        &kp X       &kp C        &kp V        &kp B                                       &none                   &none                                            &kp N        &kp M   &kp COMMA   &kp PERIOD  &kp SLASH   &none
-   &none       &none        &none       &none        &none                         &kp BACKSPACE  &lt 1 ESC   &none                   &none  &kp LSHIFT  &mt LC(LS(LCMD)) SPACE                     &none       &none        &none      &none   &none
+ &kp DEL     &kp F11        &none       &none        &none  &bootloader                    &mo 3                                                             &mo 3  &bootloader        &none       &none        &none      &none   &none
+   &none       &kp Q        &kp W       &kp E        &kp R        &kp T                    &mo 1                                                             &mo 3        &kp Y        &kp U       &kp I        &kp O      &kp P   &none
+   &none  &hm LALT A  &hm LCTRL S  &hm LCMD D  &hm LCTRL F        &kp G                    &none      &none   &none                   &none       &none      &none   &hm LALT H  &hm LCTRL J  &hm LCMD K  &hm LCTRL L  &kp ENTER   &none
+   &none       &kp Z        &kp X       &kp C        &kp V        &kp B                                       &none                   &none                               &kp N        &kp M   &kp COMMA   &kp PERIOD  &kp SLASH   &none
+   &none       &none        &none       &none        &none                         &kp BACKSPACE  &lt 1 ESC   &none                   &none  &kp LSHIFT  &kp SPACE                     &none       &none        &none      &none   &none
             >;
         };
 
